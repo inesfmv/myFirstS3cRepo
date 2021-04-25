@@ -1,9 +1,11 @@
-clientes = int(input("Quantos clientes estão dentro da loja: "))
+
+
+clientes = int(input("Quantos clientes estao dentro da loja: "))
 if clientes <= 5:
-    print ("Risco de contágio: Baixo")
+    print ("Risco de contagio: Baixo")
 elif clientes > 5 and clientes <= 10:
-    print ("Risco de contágio: Médio")
+    print ("Risco de contagio: Medio")
 elif clientes > 10 and clientes <= 15:
-    print ("Risco de contágio: Elevado")
+    print ("Risco de contagio: Elevado")
 else:
-    print ("Risco de contágio: Extremo")
+    print ("Risco de contagio: Extremo")
