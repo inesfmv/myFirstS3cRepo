@@ -8,7 +8,7 @@ import ipaddress
 # lista o endereço IP dos primeiros 50 dispositivos numa rede. 
 # No fim, imprima a lista de IPs.
 
-conjuntoip=ipaddress.IPv4Network('192.168.1.0/29')
+conjuntoip=ipaddress.IPv4Network('192.168.1.0/24')
 listacinq = [ ]
 print ("alinea a")
 
@@ -17,7 +17,7 @@ for ip in conjuntoip:
     if sinal == 0:
         listacinq.append(f'{ip}')
 
-listacinq=listacinq[:2]
+listacinq=listacinq[:51]
 print (listacinq)
 
 
