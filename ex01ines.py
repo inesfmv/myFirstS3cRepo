@@ -1,5 +1,3 @@
-
-
 clientes = int(input("Quantos clientes estao dentro da loja: "))
 if clientes <= 5:
     print ("Risco de contagio: Baixo")
